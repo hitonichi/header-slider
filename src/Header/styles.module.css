@@ -1,0 +1,14 @@
+.header {
+    width: 100vw;
+    background-color: white;
+    border: 1px solid #E5E5E5;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 1em;
+    height: 3em;
+    align-items: center;
+}
+
+/* div {
+    background-color: #FFC20E;
+} */

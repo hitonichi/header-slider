@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 1.3em;
+    gap: 1em;
+    color: #454F5B;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.usrInfo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.searchBtn {
+    background-color: #F3BA2E;
+    color: white;
+    font-size: 0.7em;
+    padding: 0.5em 0.6em;
+    border-radius: 0.4em;
+}
+
+.navBtn {
+    height: 1.5em;
+}
+
+.usrName {
+    font-weight: bold;
+    height: 1.5em;
+    vertical-align: middle;
+}
+
+.imgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.usrProfile {
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 4px;
+}
