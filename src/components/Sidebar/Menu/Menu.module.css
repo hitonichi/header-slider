@@ -1,0 +1,32 @@
+.buttonContainer {
+    display: flex;
+}
+
+.button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    margin-left: auto;
+}
+
+.buttonIcon {
+    font-size: 24px;
+}
+
+.home {
+    border-left: 2px solid #d12421;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 8px;
+}
+
+.homeIcon {
+    font-size: 28px;
+    color: #d12421;
+}
+
+.itemContainer {
+    margin-top: 10px;
+}
