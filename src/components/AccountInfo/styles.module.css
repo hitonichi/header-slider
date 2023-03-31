@@ -1,0 +1,118 @@
+.modal {
+    font-size: 12px;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #F3BA2E;
+
+}
+
+.modalHeader,
+.modalContent,
+.modalActions {
+    width: 100%;
+}
+
+.modalHeader {
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+
+.modalContent {
+    padding: 10px 5px;
+}
+
+.modalActions {
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.modalNavBtn {
+    cursor: pointer;
+    color: white;
+    background: #F3BA2E;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 4px;
+    border: none;
+}
+
+.modalClose {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -9px;
+    top: -9px;
+    font-size: 24px;
+    color: white;
+    background: #F3BA2E;
+    border-radius: 18px;
+    border: 1px solid gray;
+}
+
+
+.usrInfo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.usrName {
+    font-weight: bold;
+    height: 1.5em;
+    vertical-align: middle;
+}
+
+.imgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.usrProfile {
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 4px;
+}
+
+.searchBtn {
+    background-color: #F3BA2E;
+    color: white;
+    font-size: 0.7em;
+    padding: 0.5em 0.6em;
+    border-radius: 0.4em;
+}
+
+.navBtn {
+    cursor: pointer;
+    height: 1.5em;
+}
+
+.logIn {
+    background-color: #F3BA2E;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 4px;
+    padding: 4px;
+    border-radius: 3px;
+    border: none;
+}
+
+:global(.popup-content) {
+    background: none;
+    border: none;
+}
